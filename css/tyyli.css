@@ -24,3 +24,11 @@ header img {
     /* painikkeet menevät päällekäin jos tila loppuu (mobiilissa)*/
     padding: 2rem;
 }
+
+@media (max-width: 600px) {
+
+    /* painikkeiden maksimikoko, jottei ole liian isot mobiilissa */
+    .painikealue img {
+        max-width: 150px;
+    }
+}
