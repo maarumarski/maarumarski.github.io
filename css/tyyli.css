@@ -27,14 +27,13 @@ header img {
 }
 
 .painikealue img {
-    max-width: 180px;
+    max-width: 250px;
     height: auto;
     margin: 0.5rem;
 }
 
-/* Responsiivinen säätö mobiililaitteille */
 @media (max-width: 600px) {
     .painikealue img {
-        max-width: 150px;
+        max-width: 180px;
     }
 }
