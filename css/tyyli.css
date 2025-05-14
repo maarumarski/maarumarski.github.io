@@ -12,3 +12,15 @@ header img {
     width: 100%;
     height: auto;
 }
+
+.painikealue {
+    /* tässä painikkeiden asettelua */
+    display: flex;
+    justify-content: space-around;
+    /* antaa tilaa painikkeiden väliin */
+    align-items: center;
+    /* keskittää pystysuunnassa */
+    flex-wrap: wrap;
+    /* painikkeet menevät päällekäin jos tila loppuu (mobiilissa)*/
+    padding: 2rem;
+}
