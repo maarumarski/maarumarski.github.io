@@ -14,14 +14,14 @@ header img {
 }
 
 .painikealue {
-    /* tässä painikkeiden asettelua */
+    /* painikkeiden asettelu vierekkäin */
     display: flex;
     justify-content: space-around;
-    /* antaa tilaa painikkeiden väliin */
+    /* antaa tilaa väliin */
     align-items: center;
     /* keskittää pystysuunnassa */
     flex-wrap: wrap;
-    /* painikkeet menevät päällekäin jos tila loppuu (mobiilissa)*/
+    /* mahdollistaa rivinvaihdon mobiilissa */
     padding: 2rem;
 }
 
@@ -31,9 +31,8 @@ header img {
     margin: 0.5rem;
 }
 
-@media (max-width: 150px) {
-
-    /* painikkeiden maksimikoko, jottei ole liian isot mobiilissa */
+/* Responsiivinen säätö mobiililaitteille */
+@media (max-width: 600px) {
     .painikealue img {
         max-width: 150px;
     }
