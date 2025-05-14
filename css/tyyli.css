@@ -25,10 +25,10 @@ header img {
     padding: 2rem;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 200px) {
 
     /* painikkeiden maksimikoko, jottei ole liian isot mobiilissa */
     .painikealue img {
-        max-width: 150px;
+        max-width: 120px;
     }
 }
