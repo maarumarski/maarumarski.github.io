@@ -8,7 +8,7 @@ header {
 
 header img {
     /* tässä määritetään max leveys otsikkokuvalle */
-    max-width: 600px;
+    max-width: 400px;
     width: 100%;
     height: auto;
 }
@@ -25,7 +25,7 @@ header img {
     padding: 2rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 300px) {
 
     /* painikkeiden maksimikoko, jottei ole liian isot mobiilissa */
     .painikealue img {
