@@ -37,3 +37,26 @@ header img {
         max-width: 180px;
     }
 }
+
+/* tästä eteenpäin maria.html */
+
+.esittely {
+    display: flex;
+    /* kuva ja teksti vierekkäin */
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.esittely .teksti {
+    flex: 1;
+    font-size: 1.1rem;
+}
+
+.esittely .kuva img {
+    /* kuva pysyy kiinteän kokoisena */
+    width: 400px;
+    height: auto;
+    max-height: 500px
+}
