@@ -64,9 +64,9 @@ header img {
 
 .esittely .kuva img {
     /* kuva pysyy kiinteän kokoisena */
-    width: 400px;
+    width: 600px;
     height: auto;
-    max-height: 500px;
+    max-height: 650px;
     background-color: #0d281d;
 
 
