@@ -82,6 +82,11 @@ header img {
 
 /* Mobiilissa allekkain */
 @media (max-width: 700px) {
+    .esittely {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .alkuteksti {
         text-align: left;
         padding: 0 1rem;
@@ -97,11 +102,6 @@ header img {
         text-align: left;
         padding: 0 1rem;
 
-    }
-
-    .esittely {
-        flex-direction: column;
-        align-items: center;
     }
 }
 
