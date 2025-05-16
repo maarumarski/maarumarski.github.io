@@ -46,9 +46,9 @@ header img {
 
 /* tästä eteenpäin maria.html */
 
+/* Selaimella vierekkäin vasemmalla tekstit, oikealla kuva*/
 .esittely {
     display: flex;
-    /* kuva ja teksti vierekkäin */
     justify-content: space-between;
     align-items: flex-start;
     gap: 2rem;
@@ -56,56 +56,46 @@ header img {
     background-color: #0d281d;
 }
 
-.esittely .alkuteksti {
+.esittely .tekstit {
     flex: 1;
-    font-size: 1.1rem;
-    color: #d1b4f3;
-}
-
-.esittely .teksti {
-    flex: 1;
-    font-size: 1.1rem;
     color: #ffffff;
 }
 
-.esittely .kuva img {
-    /* kuva pysyy kiinteän kokoisena */
-    width: 600px;
+.alkuteksti {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.esittelyteksti {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.kuva img {
+    width: 400px;
+    max-height: 500px;
     height: auto;
-    max-height: 650px;
+    border-radius: 8px;
     background-color: #0d281d;
 }
 
-/* mobiilissa */
+/* Mobiilissa allekkain */
 @media (max-width: 700px) {
-    .esittely {
+    .alkuteksti {
         flex-direction: column;
-        /* kuva ensin, teksti alle */
         align-items: center;
-        /* keskittää sisällön */
+        text-align: left;
     }
 
     .kuva img {
         width: 90%;
-        /* kuvan skaalaus */
         max-width: 300px;
-        /* kuvan skaalaus */
         margin-bottom: 1rem;
     }
 
-    .teksti {
-        text-align: left;
-        /* Pitää tekstin linjassa, vaikka kuva on keskitetty */
+    .esittelyteksti {
         padding: 0 1rem;
     }
-
-    .alkuteksti {
-        text-align: left;
-        /* Pitää tekstin linjassa, vaikka kuva on keskitetty */
-        padding: 0 1rem;
-
-    }
-
 }
 
 /* tästä eteenpäin yhteystiedot.html */
