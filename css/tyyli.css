@@ -115,6 +115,8 @@ header img {
 .yhteystiedot {
     font-size: 1.1rem;
     /* Tekstin koko hieman normaalia isompi */
+    text-align: center;
+    /* Keskittää tekstin vaakasuunnassa */
 }
 
 .yhteystiedot p {
