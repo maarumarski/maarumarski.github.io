@@ -4,6 +4,9 @@ body {
 }
 
 
+/* index.html tästä alkaen */
+
+
 header {
     text-align: center;
     /* otsikkokuva keskellä */
@@ -44,9 +47,11 @@ header img {
     }
 }
 
+
+
 /* tästä eteenpäin maria.html */
 
-/* Selaimella vierekkäin vasemmalla tekstit, oikealla kuva*/
+/* Selaimella elementit vierekkäin*/
 .esittely {
     display: flex;
     /* asettaa elementit vierekkäin */
@@ -105,22 +110,22 @@ header img {
     }
 }
 
+
+
 /* tästä eteenpäin yhteystiedot.html */
 
 .yhteystiedot {
     background-color: #0d281d;
-    padding: 2rem;
-    margin: 2rem auto;
-    max-width: 600px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     font-size: 1.1rem;
+    /* Tekstin koko hieman normaalia isompi */
     color: #ffffff;
 }
 
 .yhteystiedot p {
     margin-bottom: 1rem;
+    /* Väli kappaleiden väliin (n. 16px) */
     line-height: 1.5;
+    /* riviväli 1.5x fonttikoko */
 }
 
 header h1 {
