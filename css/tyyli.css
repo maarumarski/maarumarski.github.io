@@ -34,7 +34,6 @@ header img {
     flex-wrap: wrap;
     /* mahdollistaa rivinvaihdon mobiilissa */
     padding: 2rem;
-    background-color: #0d281d;
 }
 
 .painikealue img {
@@ -64,19 +63,17 @@ header img {
     /* tila elementtien välillä */
     padding: 2rem;
     /* Noin 32px väli */
-    background-color: #0d281d;
+    ;
 }
 
 .alkuteksti {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: #ffffff;
 }
 
 .esittelyteksti {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #ffffff;
 }
 
 .kuva img {
@@ -84,7 +81,6 @@ header img {
     max-height: 500px;
     height: auto;
     border-radius: 8px;
-    background-color: #0d281d;
 }
 
 /* Mobiilissa allekkain */
@@ -117,10 +113,8 @@ header img {
 /* tästä eteenpäin yhteystiedot.html */
 
 .yhteystiedot {
-    background-color: #0d281d;
     font-size: 1.1rem;
     /* Tekstin koko hieman normaalia isompi */
-    color: #ffffff;
 }
 
 .yhteystiedot p {
@@ -128,9 +122,4 @@ header img {
     /* Väli kappaleiden väliin (n. 16px) */
     line-height: 1.5;
     /* riviväli 1.5x fonttikoko */
-}
-
-header h1 {
-    background-color: #0d281d;
-    color: #ffffff
 }
