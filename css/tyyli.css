@@ -12,6 +12,15 @@ body {
         /* Poistaa alleviivauksen */
         padding: 0.5rem;
     }
+
+    nav a.active {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #a8bb5e;
+    }
+
+
+
 }
 
 
