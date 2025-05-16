@@ -70,28 +70,6 @@ header img {
     background-color: #0d281d;
 }
 
-/* tästä eteenpäin yhteystiedot.html */
-
-.yhteystiedot {
-    background-color: #0d281d;
-    padding: 2rem;
-    margin: 2rem auto;
-    max-width: 600px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    font-size: 1.1rem;
-    color: #ffffff;
-}
-
-.yhteystiedot p {
-    margin-bottom: 1rem;
-    line-height: 1.5;
-}
-
-header h1 {
-    color: #ffffff;
-}
-
 /* mobiilissa */
 @media (max-width: 700px) {
     .esittely {
@@ -114,4 +92,27 @@ header h1 {
         /* Pitää tekstin linjassa, vaikka kuva on keskitetty */
         padding: 0 1rem;
     }
+}
+
+/* tästä eteenpäin yhteystiedot.html */
+
+.yhteystiedot {
+    background-color: #0d281d;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.yhteystiedot p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+header h1 {
+    color: #0d281d;
+    background-color: #efb1d8
 }
