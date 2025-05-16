@@ -56,7 +56,7 @@ header img {
     background-color: #0d281d;
 }
 
-.alkuteksti .teksti {
+.esittely .alkuteksti {
     flex: 1;
     font-size: 1.1rem;
     color: #d1b4f3;
