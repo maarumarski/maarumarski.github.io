@@ -3,6 +3,15 @@ body {
     /* fontti Poppins */
     color: #ffffff;
     background-color: #0d281d;
+
+    nav a {
+        /* navigointitekstin väri */
+        color: #ffffff;
+        /* Valkoinen teksti */
+        text-decoration: none;
+        /* Poistaa alleviivauksen */
+        padding: 0.5rem;
+    }
 }
 
 
