@@ -56,6 +56,12 @@ header img {
     background-color: #0d281d;
 }
 
+.alkuteksti .teksti {
+    flex: 1;
+    font-size: 1.1rem;
+    color: #d1b4f3;
+}
+
 .esittely .teksti {
     flex: 1;
     font-size: 1.1rem;
@@ -92,6 +98,14 @@ header img {
         /* Pitää tekstin linjassa, vaikka kuva on keskitetty */
         padding: 0 1rem;
     }
+
+    .alkuteksti {
+        text-align: left;
+        /* Pitää tekstin linjassa, vaikka kuva on keskitetty */
+        padding: 0 1rem;
+
+    }
+
 }
 
 /* tästä eteenpäin yhteystiedot.html */
