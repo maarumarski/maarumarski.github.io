@@ -49,26 +49,27 @@ header img {
 /* Selaimella vierekkäin vasemmalla tekstit, oikealla kuva*/
 .esittely {
     display: flex;
+    /* asettaa elementit vierekkäin */
     justify-content: space-between;
+    /* eka elementti iha vasemmalle, toka ihan oikealle */
     align-items: flex-start;
     gap: 2rem;
+    /* tila elementtien välillä */
     padding: 2rem;
+    /* Noin 32px väli */
     background-color: #0d281d;
-}
-
-.esittely .tekstit {
-    flex: 1;
-    color: #ffffff;
 }
 
 .alkuteksti {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    color: #ffffff;
 }
 
 .esittelyteksti {
     font-size: 1.1rem;
     line-height: 1.6;
+    color: #ffffff;
 }
 
 .kuva img {
@@ -82,7 +83,7 @@ header img {
 /* Mobiilissa allekkain */
 @media (max-width: 700px) {
     .alkuteksti {
-        text-align: center;
+        text-align: left;
         padding: 0 1rem;
     }
 
@@ -93,7 +94,7 @@ header img {
     }
 
     .esittelyteksti {
-        text-align: center;
+        text-align: left;
         padding: 0 1rem;
 
     }
